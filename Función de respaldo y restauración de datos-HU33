@@ -1,0 +1,14 @@
+feature: Función de respaldo y restauración de datos-HU33
+	Como usuario
+	quiero quiero tener acceso a una función de respaldo
+  y restauración de datos dentro de la aplicación
+	para que proteja mis registros emocionales
+  y configuraciones personales en caso de pérdida o cambio de dispositivo.
+
+@Respaldo
+Scenario: Respaldo y restauración de datos
+	Given que el usuario busca proteger su información personal
+	And registros emocionales
+	When acceda a la sección de configuración en la aplicación 
+	Then podrá activar la función de respaldo automático, que almacenará sus datos en la nube de forma segura
+	And utilizar la función de restauración para recuperar sus datos en un nuevo dispositivo o en caso de pérdida de datos local.
