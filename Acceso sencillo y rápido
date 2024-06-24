@@ -1,0 +1,12 @@
+@feature: Acceso sencillo y rápido - US01
+
+Como usuario, quiero poder ingresar a la aplicación 
+y ser recibido por un medio que me permita visualizar  
+en qué parte de mi rutina me quede, e iniciarla desde 
+ese punto, sin necesidad de entrar a otras pestañas o 
+pantallas para buscarla.
+
+Escenario : La redirección hacia la rutina pendiente se realizó con éxito.
+Given el usuario quiere continuar con su rutina
+When el usuario le dé al botón “sí” en el mensaje emergente  “Tiene una rutina pendiente, desea continuar con la rutina”
+Then será redirigido hacia su rutina pendiente
