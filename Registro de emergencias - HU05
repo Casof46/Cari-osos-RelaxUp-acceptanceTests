@@ -1,0 +1,10 @@
+@feature: Registro de emergencias - HU05
+
+Como usuario, quiero que los casos de emergencia se registren 
+en la aplicación para tener un seguimiento de la frecuencia y 
+la naturaleza de las emergencias en un período de tiempo determinado.
+
+Escenario : Registro de casos de emergencia
+Given la aplicación maneja las solicitudes de ayuda del usuario
+When el usuario sufra una crisis y utilice la función de emergencia
+Then el sistema registra automáticamente el caso junto con la hora y la fecha de la intervención.
