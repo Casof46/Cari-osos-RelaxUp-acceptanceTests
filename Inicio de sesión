@@ -1,0 +1,16 @@
+@feature: Inicio de sesión - US08
+
+Como usuario registrado, quiero poder iniciar sesión 
+en la plataforma de análisis emocional para acceder a 
+mis datos y utilizar las funciones de análisis de tendencias 
+emocionales.
+
+Escenario : Inicio de sesión exitoso en la plataforma
+Given soy un usuario registrado. 
+When acceda a la plataforma 
+Then se me solicitará que ingrese mis credenciales de inicio de sesión para iniciar con éxito.
+
+Escenario : Inicio de sesión fallido en la plataforma
+Given el usuario desea ingresar
+When el usuario ingrese sus credenciales y estas sean incorrectas
+Then le saldrá un mensaje de error y le sugerirá intentar de nuevo o la opción: “¿Olvidó su contraseña?
