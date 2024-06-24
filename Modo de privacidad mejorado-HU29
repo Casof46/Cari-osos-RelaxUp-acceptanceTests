@@ -1,0 +1,15 @@
+feature: Modo de privacidad mejorado-HU29
+	Como usuario
+	quiero que la aplicación tenga un modo de privacidad mejorado
+	para que proteja mis datos personales 
+  And me permita controlar quién puede acceder a mi información 
+  And actividades dentro de la aplicación
+
+@Privacidad
+Scenario: Modo de privacidad mejorado
+	Given el usuario valora la protección de su privacidad en línea
+	When acceda a la configuración de privacidad en la aplicación
+	Then podrá ajustar la visibilidad de su perfil, actividades
+	And datos personales
+	And gestionar permisos de acceso para otros usuarios
+  And aplicaciones de manera granular.
