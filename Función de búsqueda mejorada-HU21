@@ -1,0 +1,12 @@
+feature: Función de búsqueda mejorada-HU21
+	Como usuario
+	quiero quiero una función de búsqueda mejorada dentro de la aplicación
+	para que me permita encontrar rápidamente recursos, ejercicios
+  y contenido relevante para mis necesidades específicas.
+
+@Funcion
+Scenario: Búsqueda de recursos 
+	Given el usuario busca información específica dentro de la aplicación 
+	When utilice la función de búsqueda en la aplicación
+	Then encontrará resultados relevantes
+	And útiles que coincidan con sus criterios de búsqueda. 
