@@ -1,0 +1,14 @@
+@feature: Registro de estado de ánimo - US03
+
+Como usuario, quiero poder registrar mis estados de 
+ánimo diarios en la aplicación para realizar un seguimiento 
+de mi progreso emocional a lo largo del tiempo.
+
+Escenario 1: El usuario registra un estado de ánimo exitosamente
+
+Given el usuario quiere registrar su estado de ánimo diario
+
+When el usuario acceda a la función de registro de estados de ánimo, y seleccione su estado de ánimo actual,
+
+Then el estado de ánimo se registrará con éxito en la aplicación y las 
+recomendaciones y sugerencias brindadas por la app tomarán en cuenta su nuevo estado de ánimo.
