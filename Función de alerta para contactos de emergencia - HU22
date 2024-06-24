@@ -1,0 +1,11 @@
+feature: Función de alerta para contactos de emergencia - HU22
+	Como usuario
+	quiero tener la opción de activar una función de alerta que notifique a contactos de emergencia predefinidos en caso de crisis
+	para recibir apoyo de manera rápida y efectiva.
+
+@FuncionAlerta
+Scenario: Activación de función de alerta
+	Given que el usuario desea notificar a contactos de emergencia en situaciones críticas
+	When active la función de alerta en la aplicación
+	Then se enviará un mensaje de alerta a los contactos designados con información sobre la situación
+	And la ubicación del usuario.
