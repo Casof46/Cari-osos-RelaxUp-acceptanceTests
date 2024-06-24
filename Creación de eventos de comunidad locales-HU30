@@ -1,0 +1,14 @@
+feature: Creación de eventos de comunidad locales-HU30
+	Como usuario
+	quiero tener la opción de crear 
+  y promover eventos de comunidad locales dentro de la aplicación
+	para  reunir a personas de mi área 
+  y fortalecer los lazos sociales en torno al bienestar emocional.
+
+@Creacion
+Scenario: Creación de eventos locales
+	Given el usuario desea involucrar a su comunidad en actividades de bienestar emocional 
+	When acceda a la sección de eventos en la aplicación 
+	Then podrá crear eventos locales, como grupos de caminata o reuniones sociales
+	And promoverlos entre otros miembros de la comunidad para fomentar la participación
+	And el apoyo mutuo.
