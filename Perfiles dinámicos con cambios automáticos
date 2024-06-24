@@ -1,0 +1,11 @@
+@feature: Perfiles dinámicos con cambios automáticos - US02
+
+Como usuario, quiero que mi perfil se ajuste 
+automáticamente según mi progreso en el manejo de 
+la ira. También quiero poder seguir mi historial y 
+progreso a lo largo del tiempo desde mi perfil.
+
+Escenario : El perfil se actualiza exitosamente
+Given el usuario desea que su perfil refleje su progreso en el manejo de la ira 
+When el usuario complete una rutina de ejercicios de manejo de la ira 
+Then el perfil del usuario se actualizará automáticamente, mostrando iconos o cambios en el marco y barra de progreso del perfil del usuario
