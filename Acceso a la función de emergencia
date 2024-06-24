@@ -1,0 +1,17 @@
+@feature: Acceso a la función de emergencia - US06
+
+@Soporte
+Como usuario, quiero poder acceder fácilmente a la 
+función de emergencia de atención para solicitar 
+ayuda inmediata en situaciones de crisis.
+
+Escenario: Accionamiento de función de emergencia
+
+Given el usuario se encuentra en una crisis y desea controlarse
+
+When el usuario logre entrar a la aplicación y presione el botón de 
+“Emergencia”
+
+Then el usuario será redirigido al apartado de la función de 
+emergencia, donde recibirá unas indicaciones de como controlar esas 
+emociones descontroladas.
