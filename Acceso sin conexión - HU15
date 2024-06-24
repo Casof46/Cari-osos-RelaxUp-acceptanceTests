@@ -3,7 +3,7 @@ feature: Acceso sin conexión - HU15
   	quiero poder acceder a ciertas funciones de la aplicación incluso cuando no tengo conexión a internet
   	para poder seguir utilizando herramientas de manejo de la ira en cualquier momento y lugar.
 
-@algo
+@Acceso
 Scenario: El usuario quiere usar la app sin necesidad de acceso a internet
 	Given el usuario puede encontrarse en áreas con conectividad limitada
 	When utilice la aplicación sin conexión a Internet
